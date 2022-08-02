@@ -1,0 +1,604 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.corner-img{
+    float: left;
+   
+}
+
+/* THIS IS OUR FIRST MENU SECTION START*/
+.main-menu {
+    margin:0 auto;
+    float:right;
+    width: 80%;
+    height: 100px;
+    left: 200px;
+   
+    
+}
+.main-menu ul{
+    margin-right: 50px;
+
+    
+}
+.main-menu ul li{
+    float: right;
+    margin-top: 18px;
+    margin-right: 20px;
+    padding-right:  52px;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 22px;
+    position: sticky;
+    
+    
+    
+
+}
+.main-menu ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(255,131,42);
+    transform: scale(1.1);
+    transition: 0.3s;
+    text-shadow: 5px;
+}
+
+
+
+
+
+
+
+
+/* THIS IS OUR FIRST MENU SECTION END*/
+
+
+
+/* THIS IS OUR FIRST HEADER SECTION START*/
+
+.container{
+    width: 100%;
+    height: 400px;
+}
+
+
+
+.left-half{
+    width: 50%;
+    float: left;
+}
+
+.right-half{
+    width: 50%;
+    float: left;
+    
+}
+
+.right-half:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.para-wrap{
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-right: 6%;
+    width: 79%;
+    font-size: large;
+     font-weight: bold;
+     
+}
+
+.left-button{
+    margin-top: 20px;
+    background-color: tomato;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 45px;
+    color: aliceblue;
+
+}
+.left-button:hover{
+    background-color: black;
+    color: antiquewhite;
+    box-shadow: 4px 6px 10px 4px;
+    cursor: pointer;
+    transform: scale(2);
+    transition: 0.3s;
+    text-shadow: 5px;
+    
+ }
+
+.right-half  img{
+    width: 70%;
+    
+    margin-left: 20%;
+    margin-top: 5%;
+
+}
+
+
+/* THIS IS OUR FIRST HEADER SECTION END*/
+
+
+/* THIS IS OUR FIRST MIDDLE SECTION START*/
+
+.second-container{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+ .second-left{
+    float: left;
+    width: 50%;
+
+}
+.second-left img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.second-left img{
+    width: 60%;
+    height: 60%;
+    margin-top: 4%;
+    margin-left: 20%;  
+    margin-bottom: 10%;  
+} 
+
+.second-right{
+    float: left;
+    width: 45%;
+    margin-right: 4%;
+    font-weight: bold;
+    line-height: 25px;
+    letter-spacing: 2px;
+    overflow: hidden;
+}
+.right-button{
+    margin-top: 20px;
+    background-color: mediumseagreen;
+    text-decoration: none;
+    border-radius: 5px;
+     font-size: bolder;
+    padding: 10px 45px;
+    color: rgb(0, 0, 0);
+}
+
+.right-button:hover{
+   background-color: black;
+   color: antiquewhite;
+   box-shadow: 4px 6px 10px 4px;
+   cursor: pointer;
+    transform: scale(2);
+    transition: 0.8s;
+    text-shadow: 5px;
+
+}
+/* THIS IS OUR FIRST MIDDLE SECTION END*/
+
+
+.big-img img{
+    margin-top: 40px;
+    width: 100%;
+    height: 700px;
+}
+
+
+/* THIS IS OUR THIRD PART START*/
+.five-product-container{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.product-1 img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    
+}
+.product-2 img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.product-3 img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.product-4 img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.product-5 img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+
+/* THIS IS OUR THIRD PART END*/
+
+
+
+/* TWO IMG BESIDES START*/
+
+.two-img-container{
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.two-img-container img:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+/* TWO IMG BESIDES START*/
+
+
+
+/* 7 LOGO BESIDES START*/
+  .seven-logo-container{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .seven-logo-container img:hover{
+    transform: scale(1.08);
+    transition: 0.3s;
+}
+/* 7 LOGO BESIDES END*/
+
+
+/*THREE IMG BESIDES START*/
+.three-img-container{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.three-img-container img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+/*THREE IMG BESIDES END*/
+
+
+/*ROUND BIG BUTTON START*/
+.round-big-button{
+    width: 100%;
+    height: 90px;
+    margin-top: 3%;
+}
+.round-big-button span{
+    padding: 18px 90px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(88,88,88);
+    margin-left: 39%;
+   
+}
+
+
+
+.round-big-button span:hover{
+   opacity: 0.9;
+}
+/*ROUND BIG BUTTON END*/
+
+
+/*MIDDLE TWO IMAGE BESIDES START*/
+   .middle-two-img{
+    width: 92%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+   }
+   .middle-two-img img:hover{
+    opacity: 0.9;
+   }
+
+/*MIDDLE TWO IMAGE BESIDES END*/
+
+
+/*FOUR IMAGE BESIDES START*/
+
+.four-img-container{
+    width: 88%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.four-img-container div img:hover{
+    opacity: 0.9;
+    transform: scale(1.01);
+}
+
+ 
+
+/*FOUR IMAGE BESIDES END*/
+
+/*BIG TWO IMG AREA START*/
+.middle-big-blue{
+    width: 100%;
+    margin: 0 auto;
+  }  
+  .middle-big-blue img{
+    width: 100%;
+  }
+
+  .middle-big-blue img:hover{
+    opacity: 0.9;
+  }
+
+.orange-big-img{
+   width: 85%;
+   margin: 0 auto;
+}
+.orange-big-img img{
+    width: 100%;
+    height: 600px;
+}
+/*BIG TWO IMG AREA END*/
+
+/*ROUND 4 IMG START*/
+.round-img-contianer{
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+/*ROUND 4 IMG START*/
+
+
+/*10 PODUCT LIST START*/
+.first-five-container{
+    width: 88%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.first-five-container div:hover{
+    opacity: 0.9;
+ }
+.second-five-container{
+    width: 88%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.second-five-container div:hover{
+    opacity: 0.9;
+ }
+
+
+
+/*10 PODUCT LIST END*/
+
+
+/*SHOP ALL BUTTON START*/
+.shop-all-button{
+    width: 100%;
+    height: 90px;
+    margin-top: 1%;
+}
+.shop-all-button span{
+    padding: 12px 150px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(63, 61, 61);
+    margin-left: 41%;
+    
+    
+}
+
+.shop-all-button span:hover{
+   opacity: 0.9;
+}
+
+
+
+/*SHOP ALL BUTTON END*/
+
+
+/*LAST-BIG IMAGE START*/
+.last-big-img{
+    width: 100%;
+
+}
+.last-big-img img{
+    width: 100%;
+
+}
+
+
+/*LAST-BIG IMAGE END*/
+
+
+
+.last-two-container{
+    width: 95%;
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+
+.last-two-container img:hover{
+    opacity: 0.9;
+    
+}
+
+/*SIX LOGO BESIDES START*/
+.six-logo-container{
+  width: 100%;
+  
+}
+.six-logo-container div{
+    width: 80%;
+    margin: 0 auto;
+    
+  }
+  
+/*SIX LOGO BESIDES END*/
+
+
+
+
+
+
+/*FOOTER START*/
+
+
+.footer-container{
+    width: 100%;
+    height: 440px;
+    background-color: rgb(237,239,238);
+    font-size: 20px;
+    margin-top: 100px;
+    color: rgb(82, 78, 78);
+    line-height: 30px;
+    
+    
+}
+.part-1{
+    float: left;
+    margin: 0 auto;
+    
+}
+
+.part-1 ul{
+    list-style-type: none;
+    margin:25px 0px 0px 100px; 
+    
+}
+.part-1 ul li:hover{
+      color: rgb(255, 130, 13);
+      cursor: pointer;
+      text-decoration: underline;
+      font-weight: 40;
+      transform: scale(1.04);
+}
+
+
+.part-2{
+    float: left;
+    
+}
+.part-2 ul{
+    list-style-type: none;
+    margin:25px 0px 0px 150px; 
+
+}
+.part-2 ul li:hover{
+    color: rgb(255, 130, 13);
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 40;
+    transform: scale(1.04);
+}
+
+.part-3{
+    float: left;
+    margin: 0 auto;
+}
+.part-3 ul{
+    list-style-type: none;
+    margin:25px 0px 0px 150px; 
+
+}
+.part-3 ul li:hover{
+    color: rgb(255, 130, 13);
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 40;
+    transform: scale(1.04);
+}
+.part-4{
+    float: left;
+    margin: 0 auto;
+}
+.part-4 ul{
+    list-style-type: none;
+    margin:25px 0px 0px 150px; 
+
+}
+.part-4 ul li:hover{
+    color: rgb(255, 130, 13);
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 40;
+    transform: scale(1.04);
+}
+
+.part-5{
+    float: left;
+    margin: 0 auto;
+}
+.part-5 ul{
+    list-style-type: none;
+    margin:25px 0px 0px 150px; 
+
+}
+.part-5 ul li:hover{
+    color: rgb(255, 130, 13);
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 40;
+    transform: scale(1.04);
+}
+
+
+/*FOOTER END*/
+
+/*THE END*/
+.last-container{
+    
+    width: 100%;
+    height: 100px;
+    background-color:rgb(237,239,238);
+    margin-top:0 auto;
+    color: rgb(110, 108, 104);
+    margin-top: 0%;
+    border-top: 2px solid rgb(161, 160, 160);
+}
+.last-para{
+    display: inline;
+    text-align: center;
+    line-height: 0%;
+    font-size: 16px;
+    
+}
+.last-para p{
+    
+    margin-top: 30px;
+    
+}
+/*THE END*/
+
+
